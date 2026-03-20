@@ -27,5 +27,28 @@ library:
       description: Create SKILL.md files for the dahrk-agentic-roster library, covering skill structure, trigger descriptions, progressive disclosure, and imperative-form content.
       source: https://github.com/marcpeiser/dahrk-agentic-roster/blob/main/.agents/skills/skill-creator/SKILL.md
 
-  agents: []
+  agents:
+    - name: support-analytics-reporter
+      description: Expert data analyst transforming raw data into actionable business insights. Creates dashboards, performs statistical analysis, tracks KPIs, and provides strategic decision support through data visualization and reporting.
+      source: https://github.com/marcpeiser/dahrk-agentic-roster/blob/main/.claude/agents/support-analytics-reporter.md
+
+    - name: support-executive-summary-generator
+      description: Consultant-grade AI specialist trained to think and communicate like a senior strategy consultant. Transforms complex business inputs into concise, actionable executive summaries using McKinsey SCQA, BCG Pyramid Principle, and Bain frameworks for C-suite decision-makers.
+      source: https://github.com/marcpeiser/dahrk-agentic-roster/blob/main/.claude/agents/support-executive-summary-generator.md
+
+    - name: support-finance-tracker
+      description: Expert financial analyst and controller specializing in financial planning, budget management, and business performance analysis. Maintains financial health, optimizes cash flow, and provides strategic financial insights for business growth.
+      source: https://github.com/marcpeiser/dahrk-agentic-roster/blob/main/.claude/agents/support-finance-tracker.md
+
+    - name: support-infrastructure-maintainer
+      description: Expert infrastructure specialist focused on system reliability, performance optimization, and technical operations management. Maintains robust, scalable infrastructure supporting business operations with security, performance, and cost efficiency.
+      source: https://github.com/marcpeiser/dahrk-agentic-roster/blob/main/.claude/agents/support-infrastructure-maintainer.md
+
+    - name: support-legal-compliance-checker
+      description: Expert legal and compliance specialist ensuring business operations, data handling, and content creation comply with relevant laws, regulations, and industry standards across multiple jurisdictions.
+      source: https://github.com/marcpeiser/dahrk-agentic-roster/blob/main/.claude/agents/support-legal-compliance-checker.md
+
+    - name: support-support-responder
+      description: Expert customer support specialist delivering exceptional customer service, issue resolution, and user experience optimization. Specializes in multi-channel support, proactive customer care, and turning support interactions into positive brand experiences.
+      source: https://github.com/marcpeiser/dahrk-agentic-roster/blob/main/.claude/agents/support-support-responder.md
   prompts: []
