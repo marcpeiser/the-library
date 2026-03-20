@@ -10,6 +10,22 @@ default_dirs:
     - global: ~/.claude/commands/
 
 library:
-  skills: []
+  skills:
+    - name: agent-creator
+      description: Create well-formed agent definitions for the dahrk-agentic-roster library, covering frontmatter, system prompt design, trigger examples, tool selection, and color coding.
+      source: https://github.com/marcpeiser/dahrk-agentic-roster/blob/main/.agents/skills/agent-creator/SKILL.md
+
+    - name: artifact-reviewer
+      description: Review and quality-check agents, skills, and commands in the dahrk-agentic-roster library against standards before adding them.
+      source: https://github.com/marcpeiser/dahrk-agentic-roster/blob/main/.agents/skills/artifact-reviewer/SKILL.md
+
+    - name: prompt-creator
+      description: Create slash commands and reusable prompts for the dahrk-agentic-roster library, covering frontmatter, argument patterns, and best practices.
+      source: https://github.com/marcpeiser/dahrk-agentic-roster/blob/main/.agents/skills/prompt-creator/SKILL.md
+
+    - name: skill-creator
+      description: Create SKILL.md files for the dahrk-agentic-roster library, covering skill structure, trigger descriptions, progressive disclosure, and imperative-form content.
+      source: https://github.com/marcpeiser/dahrk-agentic-roster/blob/main/.agents/skills/skill-creator/SKILL.md
+
   agents: []
   prompts: []
