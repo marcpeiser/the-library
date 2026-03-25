@@ -19,6 +19,34 @@ library:
       description: Review and quality-check agents, skills, and commands in the dahrk-agentic-roster library against standards before adding them.
       source: https://github.com/marcpeiser/dahrk-agentic-roster/blob/main/.agents/skills/artifact-reviewer/SKILL.md
 
+    - name: n8n-code-javascript
+      description: Write JavaScript code in n8n Code nodes. Use when writing JavaScript in n8n, using $input/$json/$node syntax, making HTTP requests with $helpers, working with dates using DateTime, or troubleshooting Code node errors.
+      source: https://github.com/czlonkowski/n8n-skills/blob/main/skills/n8n-code-javascript/SKILL.md
+
+    - name: n8n-code-python
+      description: Write Python code in n8n Code nodes. Use when writing Python in n8n, using _input/_json/_node syntax, working with standard library, or need to understand Python limitations in n8n Code nodes.
+      source: https://github.com/czlonkowski/n8n-skills/blob/main/skills/n8n-code-python/SKILL.md
+
+    - name: n8n-expression-syntax
+      description: Validate n8n expression syntax and fix common errors. Use when writing n8n expressions, using {{}} syntax, accessing $json/$node variables, troubleshooting expression errors, or working with webhook data in workflows.
+      source: https://github.com/czlonkowski/n8n-skills/blob/main/skills/n8n-expression-syntax/SKILL.md
+
+    - name: n8n-mcp-tools-expert
+      description: Expert guide for using n8n-mcp MCP tools effectively. Use when searching for nodes, validating configurations, accessing templates, managing workflows, or using any n8n-mcp tool.
+      source: https://github.com/czlonkowski/n8n-skills/blob/main/skills/n8n-mcp-tools-expert/SKILL.md
+
+    - name: n8n-node-configuration
+      description: Operation-aware node configuration guidance. Use when configuring nodes, understanding property dependencies, determining required fields, or learning common configuration patterns by node type.
+      source: https://github.com/czlonkowski/n8n-skills/blob/main/skills/n8n-node-configuration/SKILL.md
+
+    - name: n8n-validation-expert
+      description: Interpret validation errors and guide fixing them. Use when encountering validation errors, warnings, false positives, operator structure issues, or need help understanding validation results.
+      source: https://github.com/czlonkowski/n8n-skills/blob/main/skills/n8n-validation-expert/SKILL.md
+
+    - name: n8n-workflow-patterns
+      description: Proven workflow architectural patterns from real n8n workflows. Use when building new workflows, designing workflow structure, choosing workflow patterns, or planning workflow architecture.
+      source: https://github.com/czlonkowski/n8n-skills/blob/main/skills/n8n-workflow-patterns/SKILL.md
+
     - name: prompt-creator
       description: Create slash commands and reusable prompts for the dahrk-agentic-roster library, covering frontmatter, argument patterns, and best practices.
       source: https://github.com/marcpeiser/dahrk-agentic-roster/blob/main/.agents/skills/prompt-creator/SKILL.md
