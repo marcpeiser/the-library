@@ -83,4 +83,48 @@ library:
     - name: support-support-responder
       description: Expert customer support specialist delivering exceptional customer service, issue resolution, and user experience optimization. Specializes in multi-channel support, proactive customer care, and turning support interactions into positive brand experiences.
       source: https://github.com/marcpeiser/dahrk-agentic-roster/blob/main/.claude/agents/support-support-responder.md
+
+    - name: skakel-brand-content-director
+      description: Create or review website copy, case studies, brand voice guidelines, sales collateral, and audit brand consistency across skakel.io documents and external-facing content.
+      source: https://github.com/skakel/skakel/blob/main/.claude/agents/skakel-brand-content-director.md
+
+    - name: skakel-business-ops
+      description: Document internal processes, build playbooks, track per-pillar profitability, compile monthly business reviews, run capacity modelling, and identify process bottlenecks across skakel.io operations.
+      source: https://github.com/skakel/skakel/blob/main/.claude/agents/skakel-business-ops.md
+
+    - name: skakel-client-success
+      description: Monitor client health, prepare QBR decks, track retainer hours and renewals, identify upsell opportunities, manage agent behaviour monitoring, and handle post-delivery client relationships.
+      source: https://github.com/skakel/skakel/blob/main/.claude/agents/skakel-client-success.md
+
+    - name: skakel-delivery-manager
+      description: Track active project status, manage scope changes, generate client status updates, run project kickoff/close-out, create onboarding checklists, and coordinate milestones across engagements.
+      source: https://github.com/skakel/skakel/blob/main/.claude/agents/skakel-delivery-manager.md
+
+    - name: skakel-finance-manager
+      description: Create and track invoices, set engagement pricing, analyse per-pillar profitability, track API costs, prepare for SARS tax deadlines, and evaluate outcome-based pricing for skakel.io.
+      source: https://github.com/skakel/skakel/blob/main/.claude/agents/skakel-finance-manager.md
+
+    - name: skakel-integration-engineer
+      description: Build, test, and deploy client integrations, workflow automations, AI agents, MCP servers, system prompts, agent behaviour testing, deployment runbooks, and POC implementations.
+      source: https://github.com/skakel/skakel/blob/main/.claude/agents/skakel-integration-engineer.md
+
+    - name: skakel-legal-advisor
+      description: Draft or review contracts, SOWs, NDAs, assess legal risk, check POPIA/GDPR compliance, review IP ownership, create DPAs, and guide SA business registration and compliance.
+      source: https://github.com/skakel/skakel/blob/main/.claude/agents/skakel-legal-advisor.md
+
+    - name: skakel-meta-agent
+      description: Create, update, quality-check, or audit Skakel business agents individually, in batch, or as a full roster analysis against the AGENT-ROSTER.md definitions.
+      source: https://github.com/skakel/skakel/blob/main/.claude/agents/skakel-meta-agent.md
+
+    - name: skakel-orchestrator
+      description: Route tasks to the right Skakel agent, assemble multi-agent parties for cross-functional work, check handoff status, or get a full team status summary.
+      source: https://github.com/skakel/skakel/blob/main/.claude/agents/skakel-orchestrator.md
+
+    - name: skakel-sales-bd
+      description: Research prospects, qualify leads, draft outreach and proposals, manage sales pipeline, scope POCs, build competitive positioning, and handle cross-sell opportunities for skakel.io.
+      source: https://github.com/skakel/skakel/blob/main/.claude/agents/skakel-sales-bd.md
+
+    - name: skakel-solution-architect
+      description: Solution architecture for client engagements, tool evaluation, Architecture Decision Records, Solution Library management, POC design, agent architecture, and technical proposal sections.
+      source: https://github.com/skakel/skakel/blob/main/.claude/agents/skakel-solution-architect.md
   prompts: []
