@@ -56,6 +56,10 @@ library:
       source: https://github.com/marcpeiser/dahrk-agentic-roster/blob/main/.agents/skills/skill-creator/SKILL.md
 
   agents:
+    - name: bizval
+      description: Business validation and strategic planning specialist. Validates business ideas with brutal honesty, data-driven research, competitive analysis, and actionable Go/Pivot/No-Go recommendations before you invest time or money.
+      source: https://github.com/marcpeiser/dahrk-agentic-roster/blob/main/.claude/agents/bizval.md
+
     - name: support-analytics-reporter
       description: Expert data analyst transforming raw data into actionable business insights. Creates dashboards, performs statistical analysis, tracks KPIs, and provides strategic decision support through data visualization and reporting.
       source: https://github.com/marcpeiser/dahrk-agentic-roster/blob/main/.claude/agents/support-analytics-reporter.md
