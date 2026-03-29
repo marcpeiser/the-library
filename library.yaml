@@ -11,6 +11,10 @@ default_dirs:
 
 library:
   skills:
+    - name: image-direction
+      description: Guide creation, generation, and quality review of all visual assets for skakel.io — logos, OG images, illustrations, icons, hero imagery. Enforces brand palette, typography, and style constraints.
+      source: https://github.com/skakel/skakel/blob/main/.claude/skills/image-direction/SKILL.md
+
     - name: agent-creator
       description: Create well-formed agent definitions for the dahrk-agentic-roster library, covering frontmatter, system prompt design, trigger examples, tool selection, and color coding.
       source: https://github.com/marcpeiser/dahrk-agentic-roster/blob/main/.agents/skills/agent-creator/SKILL.md
