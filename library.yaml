@@ -19,6 +19,10 @@ library:
       description: Create well-formed agent definitions for the dahrk-agentic-roster library, covering frontmatter, system prompt design, trigger examples, tool selection, and color coding.
       source: https://github.com/marcpeiser/dahrk-agentic-roster/blob/main/.agents/skills/agent-creator/SKILL.md
 
+    - name: drawio-mcp-diagramming
+      description: Create and edit architecture diagrams using Draw.io MCP with reliable Azure and AWS icon rendering guidance. Supports Azure2 and AWS4 icon libraries for cloud infrastructure, auth flows, API diagrams, and CI/CD pipelines.
+      source: https://github.com/thomast1906/github-copilot-agent-skills/blob/main/.github/skills/drawio-mcp-diagramming/SKILL.md
+
     - name: artifact-reviewer
       description: Review and quality-check agents, skills, and commands in the dahrk-agentic-roster library against standards before adding them.
       source: https://github.com/marcpeiser/dahrk-agentic-roster/blob/main/.agents/skills/artifact-reviewer/SKILL.md
